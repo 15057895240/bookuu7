@@ -68,7 +68,9 @@
 .floors{
     background:#f5f5f5;
 }
-
+.floor{
+	margin-top: 20px;
+}
 .floor>.context{
     height:45px;
     border-bottom:2px solid #5babbb;
@@ -194,4 +196,42 @@
 .floors .index{
     z-index:5;
     opacity:1;
+}
+.floor .content .model{
+	height:280px;
+	width:200px;
+	overflow:hidden;
+	border:1px solid #f5f5f5;
+	border-right:none;
+	margin-bottom:1px;
+	box-sizing: border-box;
+	transition:all .5s linear;
+}
+.floor .content .model .pic{
+	display: block;
+	background-repeat: no-repeat;
+	background-size: contain;
+	margin:20px auto;
+	width:149px;
+	height:149px;
+	transition:all .5s linear;
+	background-position: center;
+}
+.floor .content .model .tit{
+	text-align: center;
+}
+.floor .content .model .pri{
+	text-align: center;
+	margin:20px auto;
+}
+.floor .content .model .pri b{
+	color:#E4393C;
+	font-weight: normal;
+}
+.floor .content .model .pri i{
+	font-style:normal;
+	text-decoration: line-through;
+}
+.wrap{
+	flex-wrap: wrap;
 }
