@@ -1,0 +1,9 @@
+(()=>{
+    $.ajax({
+        url:"data/footer.html",
+        success(data){
+            //console.log(data);
+            $("footer").html(data);
+        }
+    })
+})()
